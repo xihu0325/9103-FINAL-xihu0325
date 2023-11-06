@@ -1,8 +1,8 @@
 # 9103-FINAL-xihu0325
 ![002](9103-01.png)
 ![001](9103-02.png)
+Static presentation of the final effect of the project
 
-9103-Assignments-Creative coding major project
 
 ## Work Introduction
 
@@ -20,14 +20,14 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 - Zoom in and read the Wheel of Destiny.：`Mouse click the circle`
 - Change colors：                         `Refresh the page`
 
-### 8. Iteration Process Record Table
+### Iteration Process Record Table
 | Iteration      | Address   |  Modify and add  |
 | :--------  | :-----  | :----:  |
 | Iteration1|https://github.com/xihu0325/9103-FINAL-xihu0325/blob/cdc167aca8595ebf6f941672a3d685a473ab02f0/9103%20final/sketch-1.js |Change colors, edit settings within the circles, and remove unnecessary code.|
 | Iteration2 | https://github.com/xihu0325/9103-FINAL-xihu0325/blob/cdc167aca8595ebf6f941672a3d685a473ab02f0/9103%20final/sketch-2.js|Add Perlin noise effects, edit the background, apply Perlin noise effects within the circles, modify the color scheme, and adjust the data.|
 | Iteration Final | https://github.com/xihu0325/9103-FINAL-xihu0325/blob/cdc167aca8595ebf6f941672a3d685a473ab02f0/9103%20final/sketch-final.js |Add mouse interaction, click to zoom in on the gears, track the mouse's path, and introduce elements into the scene to create as many possibilities as possible.|
 
-### 9. Project Editing Timeline (Timeline of Project Edits)
+### Project Editing Timeline (Timeline of Project Edits)
 
 
 ```mermaid
@@ -46,3 +46,5 @@ gantt
     Release: a8,after a7,2d
     Acceptance: a8,after a7,3d
 ```
+### Flow Chart
+![003](Initialization.png)
