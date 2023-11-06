@@ -16,7 +16,6 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 
 ## How To USE
----
 **PS**：In ancient China, people believed that everyone's destiny was predetermined. Even though life paths may seem similar, they were actually quite different. It's similar to the stars in the sky—while they may appear the same, a closer look reveals that each star is a unique individual, diligently following its own trajectory.Click to view different ，**Let's together search for our own Wheels of Destiny.**。
 
 - Follow the path ：                      `Move your mouse`
