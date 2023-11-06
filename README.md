@@ -38,7 +38,6 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 ![003](Initialization.png)
 ```mermaid
 graph TD;
-subgraph Initialization
   A[Setup]
   B[Generate Random Colors]
   C[Get Contrast Colors]
@@ -48,9 +47,6 @@ subgraph Initialization
   G[Draw Small Ellipses and Lines]
   H[Draw Gradient Arcs]
   I[Draw Concentric Circles]
-end
-
-subgraph Main Loop
   J[Main Loop]
   K[Draw Magnetic Field Flowchart]
   L[Draw Large Circles and Trajectories]
@@ -59,7 +55,6 @@ subgraph Main Loop
   O[Check Mouse Position]
   P[Mouse Release Event]
   Q[Reset Selected Large Circle]
-end
 
 A --> B
 A --> C
