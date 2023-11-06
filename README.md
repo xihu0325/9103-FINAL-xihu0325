@@ -38,7 +38,6 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 ![003](Initialization.png)
 ```mermaid
 graph LR
-
 subgraph Initialization
   A[Setup] --> A Description(Perform global settings such as variable initialization and window creation)
   B[Generate Random Colors] --> B Description(Generate random color values and store them in the `concentricCircleColors` array for future use)
@@ -50,7 +49,6 @@ subgraph Initialization
   H[Draw Gradient Arcs] --> H Description(Draw gradient-colored semicircular shapes used to connect the centers of two large circles)
   I[Draw Concentric Circles] --> I Description(Draw concentric circle shapes, including different layers of concentric circles to create a multilayer effect)
 end
-
 subgraph Main Loop
   J[Main Loop]
   K[Draw Magnetic Field Flowchart] --> K Description(Draw a magnetic field flowchart)
@@ -61,7 +59,6 @@ subgraph Main Loop
   P[Mouse Release Event] --> P Description(Handle mouse release event)
   Q[Reset Selected Large Circle] --> Q Description(Reset the selected large circle)
 end
-
 A --> B
 A --> C
 A --> D
@@ -88,7 +85,6 @@ N --> O
 N --> P
 P --> Q
 Q --> J
-
 
 ```
 
