@@ -37,27 +37,29 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 ![003](Initialization.png)
 ```mermaid
-graph LR
+graph TD;
 subgraph Initialization
-  A[Setup] --> R Description： Perform global settings such as variable initialization and window creation
-  B[Generate Random Colors] --> S Description：Generate random color values and store them in the `concentricCircleColors` array for future use
-  C[Get Contrast Colors] --> T Description：Generate contrast colors based on given colors to ensure visibility and aesthetics
-  D[Draw Ellipses] --> U Description：Draw ellipse shapes, including large circles and small ellipses, where the large circle is used in the main loop
-  E[Draw Wavy Circles] --> V Description：Draw wavy circular shapes, where the wave shape is influenced by angles and noise
-  F[Draw Dotted Rings] --> W Description：Draw dotted rings, where the density and positions of dots are generated based on angles and noise
-  G[Draw Small Ellipses and Lines] --> X Description：Draw small ellipses and connecting lines to enhance the visual effect of large circles
-  H[Draw Gradient Arcs] --> Y Description:Draw gradient-colored semicircular shapes used to connect the centers of two large circles
-  I[Draw Concentric Circles] --> Z Description:Draw concentric circle shapes, including different layers of concentric circles to create a multilayer effect
+  A[Setup]
+  B[Generate Random Colors]
+  C[Get Contrast Colors]
+  D[Draw Ellipses]
+  E[Draw Wavy Circles]
+  F[Draw Dotted Rings]
+  G[Draw Small Ellipses and Lines]
+  H[Draw Gradient Arcs]
+  I[Draw Concentric Circles]
+end
 
 subgraph Main Loop
   J[Main Loop]
-  K[Draw Magnetic Field Flowchart] 
-  L[Draw Large Circles and Trajectories] 
+  K[Draw Magnetic Field Flowchart]
+  L[Draw Large Circles and Trajectories]
   M[Draw Buttons]
-  N[Detect Mouse Press Event] 
-  O[Check Mouse Position] 
-  P[Mouse Release Event] 
+  N[Detect Mouse Press Event]
+  O[Check Mouse Position]
+  P[Mouse Release Event]
   Q[Reset Selected Large Circle]
+end
 
 A --> B
 A --> C
