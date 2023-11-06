@@ -25,8 +25,8 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 
 
-### Iteration Process Record Table
----
+## Iteration Process Record Table
+
 | Iteration      | Address   |  Modify and add  |
 | :--------  | :-----  | :----:  |
 | Iteration1|https://github.com/xihu0325/9103-FINAL-xihu0325/blob/cdc167aca8595ebf6f941672a3d685a473ab02f0/9103%20final/sketch-1.js |Change colors, edit settings within the circles, and remove unnecessary code.|
@@ -37,8 +37,8 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 
 
-### Project Editing Timeline (Timeline of Project Edits)
----
+## Project Editing Timeline (Timeline of Project Edits)
+
 ```mermaid
 gantt
   title Project Development Process
@@ -57,6 +57,6 @@ gantt
 ```
 
 
-### Flow Chart
----
+## Flow Chart
+
 ![003](Initialization.png)
