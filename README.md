@@ -10,7 +10,7 @@ In terms of shape, the design combines eyes with planets. Eyes are often regarde
 
 The design retains the basic graphic elements and tone of "Wheel of Fate," seeking to use simple shapes to represent the different colors in each person's life. At the same time, it undertakes a secondary creation to delve deeper into the theme, aiming to trigger deep thought and emotional resonance. Choosing to view different Wheels of Fate, intends to stimulate contemplation of the resonance and connection between individuals and their own lives.
 ## 如何使用
-**微注**：In ancient China, people believed that everyone's destiny was predetermined. Even though life paths may seem similar, they were actually quite different. It's similar to the stars in the sky—while they may appear the same, a closer look reveals that each star is a unique individual, diligently following its own trajectory.Click to view different [Wheels of Destiny](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，**Let's together search for our own Wheels of Destiny.**。
+**微注**：In ancient China, people believed that everyone's destiny was predetermined. Even though life paths may seem similar, they were actually quite different. It's similar to the stars in the sky—while they may appear the same, a closer look reveals that each star is a unique individual, diligently following its own trajectory.Click to view different [Wheels of Destiny]([https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn](https://github.com/xihu0325/9103-FINAL-xihu0325/blob/main/9103%20final/index.html))，**Let's together search for our own Wheels of Destiny.**。
 
 - Follow the path ：`Move your mouse`
 - Zoom in and read the Wheel of Destiny.：`Mouse click the circle`
