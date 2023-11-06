@@ -29,6 +29,7 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 ### 9. Project Editing Timeline (Timeline of Project Edits)
 
+
 ```mermaid
 gantt
   title Project Development Process
@@ -37,8 +38,8 @@ gantt
     Artistic Creation Extension:a2, 2023-10-13,5d
     Concept Validation, Group Project Output: a3,after a2,5d
   section Personal Project
-    Planning the Code in the Group's Project:a4,after a3,1d
-    Secondary Design Concept:a5,, after a4,1d
+    Planning the Code in the Group's Project  :a4,after a3,1d
+    Secondary Design Concept  :a5,after a4,1d
     Coding: a6,after a5,4d
     Testing: a7,after a6,3d
   section Release Acceptance
