@@ -48,7 +48,7 @@ subgraph Initialization
   G[Draw Small Ellipses and Lines] --> G Description(Draw small ellipses and connecting lines to enhance the visual effect of large circles)
   H[Draw Gradient Arcs] --> H Description(Draw gradient-colored semicircular shapes used to connect the centers of two large circles)
   I[Draw Concentric Circles] --> I Description(Draw concentric circle shapes, including different layers of concentric circles to create a multilayer effect)
-end
+
 subgraph Main Loop
   J[Main Loop]
   K[Draw Magnetic Field Flowchart] --> K Description(Draw a magnetic field flowchart)
@@ -58,7 +58,7 @@ subgraph Main Loop
   O[Check Mouse Position] --> O Description(Check the mouse's position)
   P[Mouse Release Event] --> P Description(Handle mouse release event)
   Q[Reset Selected Large Circle] --> Q Description(Reset the selected large circle)
-end
+
 A --> B
 A --> C
 A --> D
