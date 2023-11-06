@@ -38,44 +38,57 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 ![003](Initialization.png)
 ```mermaid
 graph LR
-A[设置] --> B[生成随机颜色]
-A --> C[获取对比颜色]
-A --> D[绘制椭圆]
-A --> E[绘制波浪圆]
-A --> F[绘制点圆环]
-A --> G[绘制小椭圆和线]
-A --> H[绘制渐变半弧]
-A --> I[绘制同心圆]
+
+subgraph Initialization
+  A[Setup] --> A Description(Perform global settings such as variable initialization and window creation)
+  B[Generate Random Colors] --> B Description(Generate random color values and store them in the `concentricCircleColors` array for future use)
+  C[Get Contrast Colors] --> C Description(Generate contrast colors based on given colors to ensure visibility and aesthetics)
+  D[Draw Ellipses] --> D Description(Draw ellipse shapes, including large circles and small ellipses, where the large circle is used in the main loop)
+  E[Draw Wavy Circles] --> E Description(Draw wavy circular shapes, where the wave shape is influenced by angles and noise)
+  F[Draw Dotted Rings] --> F Description(Draw dotted rings, where the density and positions of dots are generated based on angles and noise)
+  G[Draw Small Ellipses and Lines] --> G Description(Draw small ellipses and connecting lines to enhance the visual effect of large circles)
+  H[Draw Gradient Arcs] --> H Description(Draw gradient-colored semicircular shapes used to connect the centers of two large circles)
+  I[Draw Concentric Circles] --> I Description(Draw concentric circle shapes, including different layers of concentric circles to create a multilayer effect)
+end
+
+subgraph Main Loop
+  J[Main Loop]
+  K[Draw Magnetic Field Flowchart] --> K Description(Draw a magnetic field flowchart)
+  L[Draw Large Circles and Trajectories] --> L Description(Draw large circles and their trajectories)
+  M[Draw Buttons] --> M Description(Draw buttons)
+  N[Detect Mouse Press Event] --> N Description(Detect mouse press event)
+  O[Check Mouse Position] --> O Description(Check the mouse's position)
+  P[Mouse Release Event] --> P Description(Handle mouse release event)
+  Q[Reset Selected Large Circle] --> Q Description(Reset the selected large circle)
+end
+
+A --> B
+A --> C
+A --> D
+A --> E
+A --> F
+A --> G
+A --> H
+A --> I
 
 B --> D
-B --> E
 C --> D
-C --> E
-D --> I
-E --> I
-F --> I
-G --> I
-H --> I
+D --> J
+E --> J
+F --> J
+G --> J
+H --> J
+I --> J
 
-I --> J[检测鼠标按下事件]
-J --> K[检查鼠标位置]
-K --> I
-J --> L[鼠标释放事件]
-L --> M[重置选中大圆]
+J --> K
+J --> L
+J --> M
+J --> N
+N --> O
+N --> P
+P --> Q
+Q --> J
 
-style A fill:#85FFA5, stroke:#444
-style B fill:#85FFA5, stroke:#444
-style C fill:#85FFA5, stroke:#444
-style D fill:#85FFA5, stroke:#444
-style E fill:#85FFA5, stroke:#444
-style F fill:#85FFA5, stroke:#444
-style G fill:#85FFA5, stroke:#444
-style H fill:#85FFA5, stroke:#444
-style I fill:#85FFA5, stroke:#444
-style J fill:#85FFA5, stroke:#444
-style K fill:#85FFA5, stroke:#444
-style L fill:#85FFA5, stroke:#444
-style M fill:#85FFA5, stroke:#444
 
 ```
 
