@@ -1,5 +1,10 @@
 # 9103-FINAL-xihu0325
 9103-Assignments-Creative coding major project
+
+![Uploading 9103-1.png…]()
+![Uploading 9103-2.png…]()
+
+
 ## Work Introduction
 
 In the complex tapestry of time and space, each individual is unique and independent. Although we may appear similar, our experiences are vastly different. In the same span of years, some may only taste the bitterness of life, while others savor its sweetness. Some struggle to survive and persevere, while others strive to break free from the constraints of the world. Despite the seemingly calm lives of most, beneath the surface, each person's destiny is like hidden undercurrents in the sea, always stirring different highs and lows. Under the tranquil facade, what is actually submerged is a life filled with tumultuous waves.
