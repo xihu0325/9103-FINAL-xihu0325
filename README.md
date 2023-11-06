@@ -1,6 +1,9 @@
 # 9103-FINAL-xihu0325
-![002](9103-01.png)
-Static presentation of the final effect of the project
+
+## 1.0 Inspiration Concept map
+
+![001](pexels-ananya-singh-18870805.jpg)
+![003](pexels-daniel-frank-287229.jpg)
 
 
 ## 1.1 Introduction
@@ -22,8 +25,26 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 - Change colors：                         `Refresh the page`
 
 
+## 2.1 Project Editing Timeline (Timeline of Project Edits)
 
-## 2.1 Iteration Process Record Table
+```mermaid
+gantt
+  title Project Development Process
+  section The Group's Project
+    Analysis of the Artwork:a1,2023-10-10,5d    
+    Artistic Creation Extension:a2, 2023-10-13,5d
+    Concept Validation, Group Project Output: a3,after a2,5d
+  section Personal Project
+    Planning the Code in the Group's Project  :a4,after a3,1d
+    Secondary Design Concept  :a5,after a4,1d
+    Coding: a6,after a5,4d
+    Testing: a7,after a6,3d
+  section Release Acceptance
+    Release: a8,after a7,2d
+    Acceptance: a8,after a7,3d
+```
+
+## 3.1 Iteration Process Record Table
 
 | Iteration      | Address   |  Modify and add  |
 | :--------  | :-----  | :----:  |
@@ -33,7 +54,7 @@ The design retains the basic graphic elements and tone of "Wheel of Fate," seeki
 
 
 
-## 2.2 Flow Chart
+## 3.2 Flow Chart
 
 ![003](Initialization.png)
 ```mermaid
@@ -85,22 +106,7 @@ Q --> J
 
 ```
 
-## 3.1 Project Editing Timeline (Timeline of Project Edits)
+## 4.1 Static presentation of the final effect of the project
+![002](9103-01.png)
 
-```mermaid
-gantt
-  title Project Development Process
-  section The Group's Project
-    Analysis of the Artwork:a1,2023-10-10,5d    
-    Artistic Creation Extension:a2, 2023-10-13,5d
-    Concept Validation, Group Project Output: a3,after a2,5d
-  section Personal Project
-    Planning the Code in the Group's Project  :a4,after a3,1d
-    Secondary Design Concept  :a5,after a4,1d
-    Coding: a6,after a5,4d
-    Testing: a7,after a6,3d
-  section Release Acceptance
-    Release: a8,after a7,2d
-    Acceptance: a8,after a7,3d
-```
 
