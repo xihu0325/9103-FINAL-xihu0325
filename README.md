@@ -13,8 +13,8 @@ This design is a reinterpretation of Parsita Abad's work "Wheel of Fate." The co
 In terms of shape, the design combines eyes with planets. Eyes are often regarded as the windows to emotions and inner worlds, the seat of the soul, and the gateway to the mind. By combining the shape of eyes with planets, the design implies the connection between each person's inner world and the universe.
 
 The design retains the basic graphic elements and tone of "Wheel of Fate," seeking to use simple shapes to represent the different colors in each person's life. At the same time, it undertakes a secondary creation to delve deeper into the theme, aiming to trigger deep thought and emotional resonance. Choosing to view different Wheels of Fate, intends to stimulate contemplation of the resonance and connection between individuals and their own lives.
-## How to use
-**PS**：In ancient China, people believed that everyone's destiny was predetermined. Even though life paths may seem similar, they were actually quite different. It's similar to the stars in the sky—while they may appear the same, a closer look reveals that each star is a unique individual, diligently following its own trajectory.Click to view different (https://github.com/xihu0325/9103-FINAL-xihu0325/blob/main/9103%20final/index.html)，**Let's together search for our own Wheels of Destiny.**。
+## How To USE
+**PS**：In ancient China, people believed that everyone's destiny was predetermined. Even though life paths may seem similar, they were actually quite different. It's similar to the stars in the sky—while they may appear the same, a closer look reveals that each star is a unique individual, diligently following its own trajectory.Click to view different ，**Let's together search for our own Wheels of Destiny.**。
 
 - Follow the path ：                      `Move your mouse`
 - Zoom in and read the Wheel of Destiny.：`Mouse click the circle`
@@ -37,8 +37,8 @@ gantt
     Artistic Creation Extension:a2, 2023-10-13,5d
     Concept Validation, Group Project Output: a3,after a2,5d
   section Personal Project
-    Planning the Code in the Group's Project  :a4,after a3,1d
-    Secondary Design Concept  :a5,after a4,1d
+    Planning the Code in the Group's Project:a4,after a3,1d
+    Secondary Design Concept:a5,, after a4,1d
     Coding: a6,after a5,4d
     Testing: a7,after a6,3d
   section Release Acceptance
