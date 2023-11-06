@@ -1,6 +1,5 @@
 # 9103-FINAL-xihu0325
 ![002](9103-01.png)
-![001](9103-02.png)
 Static presentation of the final effect of the project
 
 
